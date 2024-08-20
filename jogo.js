@@ -103,7 +103,7 @@ function campeonatoInternacional1() {
 }
 
 function campeonatoInternacional2() {
-  let acao5 = Number(prompt("Você está nas semifinais. Sua oponente tenta te golpear, mas você consegue defender. Chega a hora de atacar. Qual golpe você deseja executar?\n1) Tai Otoshi\n2) Tani Otoshi"))
+  let acao5 = Number(prompt("Você está na final. Sua oponente tenta te golpear, mas você consegue defender. Chega a hora de atacar. Qual golpe você deseja executar?\n1) Tai Otoshi\n2) Tani Otoshi"))
 
   if (acao5 === 1) {
     aura -= 80
@@ -142,7 +142,7 @@ function campeonatoInternacionalFinal() {
 }
 
 function finalDoJogo() {
-  if (aura >= 500) {
+  if (aura >= 300) {
     alert("VOCÊ CONSEGUIU. Parabéns! VOCÊ SE CLASSIFICOU PARA AS OLIMPÍADAS.")
   } else {
     alert("Você não vai para as Olimpíadas. Você perdeu!")
